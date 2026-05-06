@@ -195,7 +195,7 @@
 - `0xce`:
 - `0xcf`:
 - `0xd0`:
-- `0xd1`:
+- `0xd1`: German/Schlucke
 - `0xd2`:
 - `0xd3`:
 - `0xd4`:
@@ -243,7 +243,7 @@
 - `0xfe`:
 - `0xff`:
 
-95 allocated identifiers
+96 allocated identifiers
 
-145 free identifiers
+144 free identifiers
 

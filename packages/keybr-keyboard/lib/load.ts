@@ -26,6 +26,7 @@ import { LAYOUT_DE_DE } from "./layout/de_de.ts";
 import { LAYOUT_DE_MINE } from "./layout/de_mine.ts";
 import { LAYOUT_DE_NEO_2 } from "./layout/de_neo_2.ts";
 import { LAYOUT_DE_NOTED } from "./layout/de_noted.ts";
+import { LAYOUT_DE_SCHLUCKE } from "./layout/de_schlucke.ts";
 import { LAYOUT_EL_GR } from "./layout/el_gr.ts";
 import { LAYOUT_EN_APTV3 } from "./layout/en_aptv3.ts";
 import { LAYOUT_EN_CANARY } from "./layout/en_canary.ts";
@@ -120,6 +121,7 @@ const layouts = new Map<Layout, CharacterDict>([
   [Layout.BR_CHWERTY_MATHS, LAYOUT_BR_CHWERTY_MATHS],
   [Layout.CS_CZ, LAYOUT_CS_CZ],
   [Layout.DA_DK, LAYOUT_DA_DK],
+  [Layout.DE_SCHLUCKE, LAYOUT_DE_SCHLUCKE],
   [Layout.DE_ADNW_BUT_XCV, LAYOUT_DE_ADNW_BUT_XCV],
   [Layout.DE_BONE, LAYOUT_DE_BONE],
   [Layout.DE_CH, LAYOUT_DE_CH],

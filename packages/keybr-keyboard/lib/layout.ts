@@ -1187,6 +1187,15 @@ export class Layout implements XEnumItem {
       Geometry.MATRIX,
     ),
   );
+  static readonly DE_SCHLUCKE = new Layout(
+    /* id= */ "de-schlucke",
+    /* xid= */ 0xd1,
+    /* name= */ "Schlucke",
+    /* family= */ "de-schlucke",
+    /* language= */ Language.DE,
+    /* emulate= */ true,
+    /* geometries= */ new Enum(Geometry.MATRIX),
+  );
   static readonly DE_ADNW_BUT_XCV = new Layout(
     /* id= */ "de-adnw-but-xcv",
     /* xid= */ 0xa6,
@@ -1414,6 +1423,7 @@ export class Layout implements XEnumItem {
     Layout.DE_MINE,
     Layout.DE_NOTED,
     Layout.DE_CMOS,
+    Layout.DE_SCHLUCKE,
     Layout.DE_ADNW_BUT_XCV,
     Layout.FI_FI,
     Layout.FR_FR,
